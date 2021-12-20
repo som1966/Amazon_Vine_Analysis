@@ -4,5 +4,13 @@
   
 ![image](https://user-images.githubusercontent.com/89953246/146844571-53cea718-f7c5-4836-948b-6a4de432d8e6.png)
   
-## Vine_Review_Analysis
- A Vine_Review_Analysis was completed in Pyspark on the vine_table.
+## Vine_Review_Analysis Process
+ A Vine_Review_Analysis was completed in Pyspark on the vine_table. 
+ 
+ 1. The dataset was filtered by total_votes >= 20; total count was 35312.
+ ![image](https://user-images.githubusercontent.com/89953246/146845651-0c25eb0b-eb7e-4920-8cc9-7992a59070e3.png)
+
+ 2. A new table was created (helpful_votes) was created that retrieved all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%. This further reduce the data rows to 31830.
+ 3. Another table was created by that retrieved all the rows where a review was written as part of the Vine program (paid), vine == 'Y'.
+ ![image](https://user-images.githubusercontent.com/89953246/146846197-d62495e1-8c2c-4edd-8451-f560059c4fab.png)
+
