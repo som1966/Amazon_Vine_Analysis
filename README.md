@@ -14,3 +14,6 @@
  3. Another table was created by that retrieved all the rows where a review was written as part of the Vine program (paid), vine == 'Y'.
  ![image](https://user-images.githubusercontent.com/89953246/146846197-d62495e1-8c2c-4edd-8451-f560059c4fab.png)
 
+ 4. Votes from the unpaid part of the program were isolated. In the filtered helpful_votes, there were not any helpful votes that were in the unpaid program.
+ ![image](https://user-images.githubusercontent.com/89953246/146848462-6290a934-bdc0-434e-9a34-1a830ce9865e.png)
+
