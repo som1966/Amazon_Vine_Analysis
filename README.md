@@ -16,5 +16,9 @@
 
  4. Votes from the unpaid part of the program were isolated. In the filtered helpful_votes, there were not any helpful votes that were in the unpaid program.
  
- ![image](https://user-images.githubusercontent.com/89953246/146848462-6290a934-bdc0-434e-9a34-1a830ce9865e.png)
+ 5 Final step was to determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
+ 
+ ## Results
+The vine_program has a count of 285; within the vine_program and vine is 'paid' with a 5 star rating is 163.  The percentage for helpful 5 star reviews from the paid category is 57.19%, Again, the nonpaid category does not have helpful_votes.
 
+![image](https://user-images.githubusercontent.com/89953246/146852687-0b2aa4b6-3b6c-48ef-94ec-c58f326445cd.png)
